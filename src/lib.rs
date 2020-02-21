@@ -13,8 +13,6 @@ fn run_async_processor() -> impl Send {
     }
 }
 
-fn main() {}
-
 struct MessageStream<'a> {
     consumer: &'a (),
 }
